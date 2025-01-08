@@ -1,6 +1,6 @@
 # CPSC-1520 - **Instructor Dan's *A01* Workbook** (Jan 2025)
 
-> **Dan Gilleland** - Place your name in this line.
+> **Dan Gilleland**
 
 ## Schedule
 
