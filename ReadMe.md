@@ -1,6 +1,10 @@
 # CPSC-1520 - **Instructor Dan's *A01* Workbook** (Jan 2025)
 
-> **STUDENT_NAME** - Place your name in this line.
+> **Dan Gilleland** - Place your name in this line.
+
+## Schedule
+
+> Consult the course outline for the mark distribution and scheduled evaluations. See the [Agenda](./Agenda.md) for details on upcoming and completed topics.
 
 ## ![Inside This Repo](./docs/images/level.png) Inside this repository
 
