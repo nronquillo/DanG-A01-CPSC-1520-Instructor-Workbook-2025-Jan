@@ -15,8 +15,16 @@
 
 ## Jan 08
 
+- Course Introduction
+  - [000](./src/000/ReadMe.md)
+- GitHub Account Setup
+- Software Setup
 
 ## Jan 10
+
+- Workbook Setup
+  - [001](./src/001-StartHere/ReadMe.md)
+  - [002](./src/002/ReadMe.md)
 
 
 ## Jan 14
