@@ -6,13 +6,21 @@ Your first learning adventure should begin with [**Mastering Markdown**](https:/
 
 ## Table of Contents
 
-> *Create an un-ordered list here for your own table of contents, and add links to additional Markdown pages in this folder.*
+- [Journal](./Journal.md)
+- [Git Commands](./git-commands.md)
+
+----
+
+### About Commit Messages
+
+![From XKCD](https://imgs.xkcd.com/comics/git_commit.png)
+
 
 ----
 
 <!-- Custom Styling - Modify for Fun and Learning - No Warranties Implied -->
 <style type="text/css">
-img:first-child {
+h1 + img:first-child {
     float: left;
     width: auto;
     padding-right: 15px;
