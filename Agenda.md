@@ -33,13 +33,41 @@
 
 > **NOTE:** Be sure to commit and push what you do in your Student Workbook
 
+----
+
 ## Jan 14
+
+- Characteristics of JavaScript
+  - case-sensitive
+  - **not** a type-safe language
+  - looks a lot like C#, but has a number of differences
+  - string literals can be wrapped in double or single quotes
+- The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
+- Node also provides/is a REPL for JavaScript
+- [003](./src/003/ReadMe.md)
+- [x] Today's Lesson(s)
+  - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+    - HTML & Emmet in VS Code
+    - Link a JavaScript file
+  - Begin [005](./src/005/ReadMe.md)
+    - Review [its LOGs](./src/005/LOGs.md)
+- **Homework:**
+  - [x] Complete the 003/practice
+  - [x] Practice Lab (See Brightspace)
 
 
 ## Jan 15
 
+- *Anything we didn't cover last class...*
 
 ## Jan 17
+
+- [x] Lab 1 released/due **today**
+- [x] Today's Lesson(s)
+  - Notice the `LOGs.md` files under each lesson - pay attention to these
+  - Quick review on yesterday's code: What are *keywords* and what are *not* keywords.
+  - What are *functions* in JavaScript?
+  - [006](./src/006/ReadMe.md) intro
 
 
 ## Jan 21
