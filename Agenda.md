@@ -16,14 +16,15 @@
 ## Jan 08
 
 - Course Introduction
-  - [000](./src/000/ReadMe.md)
 - GitHub Account Setup
 - Software Setup
   - Complete instructions on my *new* [ad-hoc website](https://dgilleland.github.io/CPSC-1520/tutorials/0010/)
+- Workbook Setup
+  - [000](./src/000/ReadMe.md)
 
 ## Jan 10
 
-- Workbook Setup
+- Workbook Lesson
   - [001](./src/001-StartHere/ReadMe.md)
 - **Homework**
   - Read [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/) (includes GFM - *GitHub-Flavored-Markdown*)
