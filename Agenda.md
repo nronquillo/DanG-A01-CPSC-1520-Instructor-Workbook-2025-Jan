@@ -25,8 +25,13 @@
 
 - Workbook Setup
   - [001](./src/001-StartHere/ReadMe.md)
-  - [002](./src/002/ReadMe.md)
+- **Homework**
+  - Read [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/) (includes GFM - *GitHub-Flavored-Markdown*)
+  - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0020/) tutorial
+  - Complete [001](./src/001-StartHere/ReadMe.md#editing-your-github-profile) by changing your GitHub Profile.
+  - Complete the [002](./src/002/ReadMe.md) lesson on your own
 
+> **NOTE:** Be sure to commit and push what you do in your Student Workbook
 
 ## Jan 14
 
