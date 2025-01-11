@@ -36,8 +36,11 @@
 
 ----
 
-## Jan 14
+## Jan 14 (W02)
 
+- **Announcements**
+  - **Quiz Readings** - Links for readings for individual quizzes can be found under the individual topics that the quizzes relate to. For convenience, I have posted a [*Summary of Quiz Readings*](./docs/QuizReadings.md). 
+  - **Brightspace Content** - Topics on Brightspace were in the wrong order at the start of the term. The order has been corrected.
 - Characteristics of JavaScript
   - case-sensitive
   - **not** a type-safe language
