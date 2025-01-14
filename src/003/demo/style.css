@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+
+#main-heading {
+    text-decoration: underline;
+}
+
+.active {
+    font-style: italic;
+}
+
+heading > h1 {
+    font-size: xx-large;
+}
