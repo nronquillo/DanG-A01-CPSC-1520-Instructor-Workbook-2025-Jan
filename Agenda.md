@@ -41,41 +41,53 @@
 - **Announcements**
   - **Quiz Readings** - Links for readings for individual quizzes can be found under the individual topics that the quizzes relate to. For convenience, I have posted a [*Summary of Quiz Readings*](./docs/QuizReadings.md). 
   - **Brightspace Content** - Topics on Brightspace were in the wrong order at the start of the term. The order has been corrected.
-- Characteristics of JavaScript
-  - case-sensitive
-  - **not** a type-safe language
-  - looks a lot like C#, but has a number of differences
-  - string literals can be wrapped in double or single quotes
-- The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
-- Node also provides/is a REPL for JavaScript
-- [003](./src/003/ReadMe.md)
-- [x] Today's Lesson(s)
-  - Complete [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+- **Today**
+  - Practice Assignment (see Brightspace)
+  - [003](./src/003/ReadMe.md) Intro to JavaScript
     - HTML & Emmet in VS Code
-    - Link a JavaScript file
-  - Begin [005](./src/005/ReadMe.md)
-    - Review [its LOGs](./src/005/LOGs.md)
-- **Homework:**
-  - [x] Complete the 003/practice
-  - [x] Practice Lab (See Brightspace)
-
+- **Homework**
+  - Tutorial: [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
+    - Put it in your student workbook under `~/src/query-dom/`
+  - Tutorial: [Using Script Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
+    - Put it in your student workbook under `~/src/script-tags/`
+  - Bookmark and read the docs on [Semantic HTML](https://developer.mozilla.org/en-US/curriculum/core/semantic-html/)
 
 ## Jan 15
 
-- *Anything we didn't cover last class...*
+- **Today**
+  - [ ] Characteristics of JavaScript
+    - case-sensitive
+    - **not** a type-safe language
+    - looks a lot like C#, but has a number of differences
+    - string literals can be wrapped in double or single quotes
+    - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
+      - placeholders in the form of `${expression}`
+      - e.g.: `` `The count is` ${count}``
+  - [ ] ***Variables***
+  - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
+  - [ ] Node also provides/is a REPL for JavaScript
+  - [ ] Complete [003](./src/003/ReadMe.md)
+  - [ ] Start [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+    - Link a JavaScript file
+  - [ ] Begin [005](./src/005/ReadMe.md)
+    - Review [its LOGs](./src/005/LOGs.md)
+- **Homework**
+  - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
 
 ## Jan 17
 
-- [x] Lab 1 released/due **today**
-- [x] Today's Lesson(s)
+- **Today**
+  - [x] Lab 1 released/due **today**
+
+----
+
+## Jan 21 (W03)
+
+- **Today**
   - Notice the `LOGs.md` files under each lesson - pay attention to these
   - Quick review on yesterday's code: What are *keywords* and what are *not* keywords.
   - What are *functions* in JavaScript?
   - [006](./src/006/ReadMe.md) intro
-
-
-## Jan 21
-
 
 ## Jan 22
 
