@@ -73,6 +73,10 @@
     - Review [its LOGs](./src/005/LOGs.md)
 - **Homework**
   - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
+  - [ ] Review the [003 LOGs](./src/003/LOGs.md) and the [004 LOGs](./src/004/LOGs.md)
+  - [ ] Read the following articles:
+    - [Why JavaScript?](https://dgilleland.github.io/CPSC-1520/explanations/0010/)
+    - [JavaScript as a Language](https://dgilleland.github.io/CPSC-1520/explanations/0020/)
 
 ## Jan 17
 
