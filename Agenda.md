@@ -66,11 +66,10 @@
   - [ ] ***Variables***
   - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
   - [ ] Node also provides/is a REPL for JavaScript
-  - [ ] Complete [003](./src/003/ReadMe.md)
-  - [ ] Start [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+  - [ ] **Demo:** Combine the main points of [003](./src/003/ReadMe.md) and [004](./src/004/ReadMe.md)
+    - Find and modify DOM elements with `document.querySelector()`
     - Link a JavaScript file
-  - [ ] Begin [005](./src/005/ReadMe.md)
-    - Review [its LOGs](./src/005/LOGs.md)
+    - Create and use variables
 - **Homework**
   - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
   - [ ] Review the [003 LOGs](./src/003/LOGs.md) and the [004 LOGs](./src/004/LOGs.md)
