@@ -80,7 +80,7 @@
 ## Jan 17
 
 - **Today**
-  - [x] Lab 1 released/due **today**
+  - [ ] Lab 1 released/due **today**
 
 ----
 
