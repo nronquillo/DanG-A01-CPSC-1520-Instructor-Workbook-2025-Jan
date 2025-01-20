@@ -89,11 +89,17 @@
 
 - **Today**
   - Notice the `LOGs.md` files under each lesson - pay attention to these
+  - Fast-Track [005](./src/005/ReadMe.md)
   - Math Review
     - In JavaScript, all numbers are floating point
   - Quick review on yesterday's code: What are *keywords* and what are *not* keywords.
   - What are *functions* in JavaScript?
-  - [006](./src/006/ReadMe.md) intro
+  - [**006**](./src/006/ReadMe.md) intro
+  - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
+- **Homework**
+  - [ ] Do the [**Learn by Play** portion of the `005/ReadMe.md`](./src/005/ReadMe.md#learn-by-play)
+  - [ ] Review the new [Finding DOM Elements](https://dgilleland.github.io/CPSC-1520/guides/0030/) guide.
+  - [ ] Review [006 LOGs](./src/006/LOGs.md)
 
 ## Jan 22
 
