@@ -127,7 +127,7 @@
 
 ![HTML Iceberg](./docs/images/html-iceberg.jpg)
 
-  - [ ] Downloading Starter Kits
+  - [ ] [Downloading Starter Kits](#starter-kits)
 - **Today** *(Online)*
   - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
     - Review [its LOGs](./src/008/LOGs.md)
