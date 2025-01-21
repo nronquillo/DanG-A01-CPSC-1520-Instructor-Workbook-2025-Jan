@@ -8,3 +8,18 @@
 
 	Use the skills you have learned up to this point.
 */
+let firstParty = prompt('Enter the name of the disclosing party');
+let secondParty = prompt('Enter the name of the receiving party');
+
+let disclosing = document.querySelector('.disclosing-party'); // selector is a class name
+let receiving = document.querySelector('.receiving-party');
+
+disclosing.innerText = firstParty;
+receiving.innerText = secondParty;
+
+// Put the values above the signature lines as well
+disclosing = document.querySelector('.signature .disclosing-party');
+receiving = document.querySelector('.signature .receiving-party');
+
+disclosing.innerText = firstParty;
+receiving.innerText = secondParty;
