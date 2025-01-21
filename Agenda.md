@@ -9,6 +9,16 @@
 > > My philosophy of teaching, taken from [the source](https://www.bible.com/bible/111/1TH.5.14.NIV)
 
 
+> ## Starter Kits
+>
+> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
+>
+> ```bash
+> pnpm dlx tiged --disable-cache --force dgilleland/CPSC-1520-Workbook/sk/-how-to- ./src/-how-to-
+> ```
+>
+> ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
+
 ----
 
 ## Jan-Apr 2025 Schedule
@@ -87,6 +97,7 @@
 
 ## Jan 21 (W03)
 
+- **Today**
   - Notice the `LOGs.md` files under each lesson - pay attention to these
   - Fast-Track [005](./src/005/ReadMe.md)
   - Math Review
@@ -104,13 +115,28 @@
   - [ ] **Optional** - Styling Challenge (CSS only - no JavaScript)
 
     ```ps
-    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
     ```
 
 
 ## Jan 22
 
+- [ ] Housekeeping Tasks:
+  - [ ] Version Control: Updating Your Workbook (commit & push)
+  - [ ] Filling the Gaps: Self-study is the only way to fill in the gaps between what you do and don't know about HTML.
+
+![HTML Iceberg](./docs/images/html-iceberg.jpg)
+
+  - [ ] Downloading Starter Kits
 - **Today** *(Online)*
+  - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+    - Review [its LOGs](./src/008/LOGs.md)
+    - <details><summary>Use the [demo-events](./src/008/demo-events/) as a starter</summary> *(and pull the solution from [this file](backlog\(sort-queue)\w03-events_default_behaviour\js\main.js))*</details>
+      - Demo creating an event handler
+      - Demo adding an event listener
+      - Demo **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
+      - Demo adding and removing CSS classes programmatically (from `.classList`)
+      - Demo an anonymous handler for an event listener
 - **Homework**
 
 
