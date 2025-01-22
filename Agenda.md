@@ -143,6 +143,8 @@
       - Demo adding and removing CSS classes programmatically (from `.classList`)
       - Demo an anonymous handler for an event listener
 - **Homework**
+  - Make notes on the LOGs for this lesson
+  - Research mouse events on MDN (Mozilla Develop Network)
 
 
 ## Jan 24
