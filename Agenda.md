@@ -122,6 +122,7 @@
 ## Jan 22
 
 - [ ] Housekeeping Tasks:
+  - [ ] Getting the most out of ***LOGs** (Learning Outcome Guides)*
   - [ ] Version Control: Updating Your Workbook (commit & push)
   - [ ] Filling the Gaps: Self-study is the only way to fill in the gaps between what you do and don't know about HTML.
 
