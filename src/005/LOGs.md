@@ -3,6 +3,8 @@
 *At the end of this lesson, you should be able to...*
 
 - [ ] Distinguish between primitive data types and object data types in JavaScript
+  - Primitive data types are built into the language and represent the smallest/simplest data types for representing information.
+  - Object data types are the complex types that can be build by us developers or added on top of JavaScript (like the Browser adds the `document` object in the global space)
 - [ ] List the primitive data types built-in to JavaScript
 - [ ] Distinguish between the `var`, `let`, and `const` keywords
 - [ ] Describe what is meant by the term "Temporal dead zone" (TDZ)
