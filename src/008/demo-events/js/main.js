@@ -8,6 +8,8 @@ const handleFeatureClick = function() {
     let desc = document.querySelector('.feature.description');
     // The next line will remove the CSS class `hidden` from the element
     desc.classList.remove('hidden');
+    //  \________/\_______________/  <--- remove the specified CSS class
+    //    |  <--- is property of HTMLElement object - CSS classes
 }
 
 // 2. Cause my function to be called when the user clicks on the image
