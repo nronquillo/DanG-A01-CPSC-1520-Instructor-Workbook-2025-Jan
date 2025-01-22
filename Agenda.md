@@ -131,8 +131,12 @@
   - [ ] [Downloading Starter Kits](#starter-kits)
 - **Today** *(Online)*
   - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-events ./src/008/demo-events
+    ```
+
     - Review [its LOGs](./src/008/LOGs.md)
-    - <details><summary>Use the [demo-events](./src/008/demo-events/) as a starter</summary> *(and pull the solution from [this file](backlog\(sort-queue)\w03-events_default_behaviour\js\main.js))*</details>
       - Demo creating an event handler
       - Demo adding an event listener
       - Demo **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
