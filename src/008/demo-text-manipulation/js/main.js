@@ -12,18 +12,27 @@ presetPaddingLength();
 
 // And now for the lesson....
 document.getElementById('transformToUpperCase').addEventListener('click', function() {
-    let newValue = userInput.value.toUpperCase();
-    //             \  string     /
+    let newValue = userInput.value.toUpperCase(); // userInput is a <input type="text">
+    //             \  string     /                // .value property
     output.innerText = newValue;
 });
 
 // TODO: 1) Write the code to transform the user's input to lower case and display it
+//          The ID of the button is 'transformToLowerCase'
 //       STUDENT_CODE_HERE
+document.getElementById('transformToLowerCase').addEventListener('click', function() {
+    let value = userInput.value;
+    output.innerText = value.toLowerCase();
+})
 
-// TODO: 2) Modify the code below to use the appropriate user input for padding.
+
+// Demo: 2) Write the code to pad the end of input text with the supplied character(s).
+// TODO:    Modify the code below to use the appropriate user input for padding.
 document.querySelector('#transformPadEnd').addEventListener('click', function() {
-    let currentValue = 'bob';// userInput.value;
-    let newValue = currentValue.padEnd(10, '^');
+    let currentValue = userInput.value;
+    let padText = document.getElementById('endText').value;
+    let minLength = document.getElementById('minLength').value;
+    let newValue = currentValue.padEnd(minLength, padText);
     output.innerText = newValue;
 });
 
@@ -35,9 +44,7 @@ document.querySelector('#transformPadEnd').addEventListener('click', function() 
 
 // TODO: 6) Write the code to pad the start of input text with the supplied character(s).
 
-// TODO: 7) Write the code to pad the end of input text with the supplied character(s).
+// TODO: 7) Write the code to replace text in the user's input.
 
-// TODO: 8) Write the code to replace text in the user's input.
-
-// TODO: 6) Write the code to repeat the text the specified number of times on separate lines.
+// TODO: 8) Write the code to repeat the text the specified number of times on separate lines.
 
