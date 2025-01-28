@@ -20,8 +20,8 @@ document.getElementById('transformToUpperCase').addEventListener('click', functi
 // TODO: 1) Write the code to transform the user's input to lower case and display it
 //       STUDENT_CODE_HERE
 
+// TODO: 2) Modify the code below to use the appropriate user input for padding.
 document.querySelector('#transformPadEnd').addEventListener('click', function() {
-    // TODO: 2) Modify the code below to use the appropriate user input for padding.
     let currentValue = 'bob';// userInput.value;
     let newValue = currentValue.padEnd(10, '^');
     output.innerText = newValue;

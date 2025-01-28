@@ -166,8 +166,20 @@
 
 ## Jan 28 (W04)
 
+  <!-- - Revisit the "soft-intro" to explore `.stopPropagation()` -->
+
 - **Today**
+  - Start the demo-text-manipulation
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-text-manipulation ./src/008/demo-text-manipulation
+    ```
+
+  - **`~/src/008/event-listener/`** - Class time to complete the [Event Listener tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
+    - Discuss `.stopPropagation()` and `.preventDefault()`
+  - **`~/src/008/dom-styling/`** - Class time to complete the [DOM Interactions tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0080/)
 - **Homework**
+  - Complete the remaining TODO items from the demo-text-manipulation
 
 
 ## Jan 29

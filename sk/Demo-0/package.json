@@ -1,0 +1,14 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "A template of the JavaScript Sandbox project.",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "Dan Gilleland",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+}
