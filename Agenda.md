@@ -186,6 +186,20 @@
 ## Jan 29
 
 - **Today** *(Online)*
+  - [ ] Ad-hoc exploration of string manipulation functions (based roughly on the event-based intent of [demo-text-manipulation](./src/008/demo-text-manipulation/))
+    - **`.length`** property
+    - `.trim()` (plus left/right trim), `.toUpperCase()`/`.toLowerCase()`, `.padStart()`/`.padEnd()`, `.repeat()`, `.replace()` + `.replaceAll()`, `.substr()` vs. `.substring()`
+    - `.charAt()` and `.charCodeAt()`, `String.fromCharCode()`
+    - A sidenote about the short-hand Math operators
+      - `+=` et.al., `++` and `--` (prefix vs. postfix)
+
+        ```js
+        let count = 1;
+        appendLine(`Count starts out as ${count}`);
+        appendLine(`Postfix increment: count is ${count++} and then ${count}`);
+        appendLine(`Prefix increment: count is ${++count} and then ${count}`);
+        ```
+
 - **Homework**
 
 
