@@ -169,8 +169,9 @@
   <!-- - Revisit the "soft-intro" to explore `.stopPropagation()` -->
 
 - **Today**
-  - [ ] Recap about [mouse events](./src/008/demo-events/js/main.js) + browsing events
-  - [ ] Start the demo-text-manipulation
+  - [x] Recap about [mouse events](./src/008/demo-events/js/main.js) + browsing events
+  - [x] Start the demo-text-manipulation
+    - `.trim()` (plus left/right trim), `.toUpperCase()`/`.toLowerCase()`, `.padStart()`/`.padEnd()`, `.repeat()`, `.replace()` + `.replaceAll()`, `.substr()` vs. `.substring()`
 
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-text-manipulation ./src/008/demo-text-manipulation
@@ -186,10 +187,18 @@
 ## Jan 29
 
 - **Today** *(Online)*
-  - [ ] Ad-hoc exploration of string manipulation functions (based roughly on the event-based intent of [demo-text-manipulation](./src/008/demo-text-manipulation/))
+
+  ```ps
+  pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/007/ad-hoc
+  ```
+
+  - [ ] Ad-hoc exploration of additional string and number functions/properties
     - **`.length`** property
-    - `.trim()` (plus left/right trim), `.toUpperCase()`/`.toLowerCase()`, `.padStart()`/`.padEnd()`, `.repeat()`, `.replace()` + `.replaceAll()`, `.substr()` vs. `.substring()`
     - `.charAt()` and `.charCodeAt()`, `String.fromCharCode()`
+    - `.startsWith()`, `.endsWith()`, `.includes()`
+    - `Math` functions
+      - `.floor()`, `.ceil()`, `.round()`, `.min()`, `.max()`
+    - `.isNaN()`
     - A sidenote about the short-hand Math operators
       - `+=` et.al., `++` and `--` (prefix vs. postfix)
 
@@ -206,6 +215,7 @@
 ## Jan 31
 
 - **Today**
+  - [ ] **In-Class Lab 3** (Functions and Events)
 - **Homework**
 
 ----
