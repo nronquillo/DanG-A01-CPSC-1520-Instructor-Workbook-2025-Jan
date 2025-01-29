@@ -187,27 +187,13 @@
 ## Jan 29
 
 - **Today** *(Online)*
+  - [ ] For an ad-hoc exploration of strings and numbers, see the [sample code I posted today](./src/007/ad-hoc/js/main.js).
+  - [ ] [Form Processing](./src/008/) Starter Kit:
 
-  ```ps
-  pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/007/ad-hoc
-  ```
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/form-processing ./src/008/form-processing
+    ```
 
-  - [ ] Ad-hoc exploration of additional string and number functions/properties
-    - **`.length`** property
-    - `.charAt()` and `.charCodeAt()`, `String.fromCharCode()`
-    - `.startsWith()`, `.endsWith()`, `.includes()`
-    - `Math` functions
-      - `.floor()`, `.ceil()`, `.round()`, `.min()`, `.max()`
-    - `.isNaN()`
-    - A sidenote about the short-hand Math operators
-      - `+=` et.al., `++` and `--` (prefix vs. postfix)
-
-        ```js
-        let count = 1;
-        appendLine(`Count starts out as ${count}`);
-        appendLine(`Postfix increment: count is ${count++} and then ${count}`);
-        appendLine(`Prefix increment: count is ${++count} and then ${count}`);
-        ```
 
 - **Homework**
 
