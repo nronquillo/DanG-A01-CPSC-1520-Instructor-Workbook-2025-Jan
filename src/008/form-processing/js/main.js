@@ -19,6 +19,7 @@ document
         // .elements on the <form> is a collection of input controls
         // For each input control with a name, that name is available
         // as a "property" that we can access
+        // console.log(theForm.elements); // to see the controls
         let firstNameInput = theForm.elements.firstname;
         // The .value property of an <input> is the "contents"
         appendFeedback("The first name is: '" + firstNameInput.value + "'");
@@ -45,6 +46,25 @@ const exploreForm = function(ev) {
 
     // Here's an interesting (but wonky) use of indexers to call
     // the .log() function of the console object.
-    console['log']("Isn't that cool?!");
+    console['log']("Isn't that cool?!"); // don't do this in real life
+
+    clearFeedback('The assorted form was submitted.');
+    appendFeedback(`The chosen color was '${theBackgroundColorInput.value}'.`);
+    let colorInput = theInputs.color; // The name="color"
+    appendFeedback(`The color picker value was '${colorInput.value}'`);
+    // Let's apply these values.
+    let feedbackHeading = document.querySelector('section aside h3');
+//    console.log(feedbackHeading); // how I discover what properties to use
+    feedbackHeading.style.color = colorInput.value;
+    feedbackHeading.style.backgroundColor = theBackgroundColorInput.value;
+
+    // Let's get the feature information
+    let features = theInputs.feature;
+    console.log(features);
+    appendFeedback(`Border is ${features[0].checked}`);
+    appendFeedback(`Background is ${features[1].checked}`);
+    appendFeedback(`Enabled is ${features[2].checked}`);
 };
+
+// Register/hook up my function to listen for the 'submit' event
 otherForm.addEventListener('submit', exploreForm);
