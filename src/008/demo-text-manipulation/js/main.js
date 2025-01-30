@@ -37,14 +37,37 @@ document.querySelector('#transformPadEnd').addEventListener('click', function() 
 });
 
 // TODO: 3) Write the code to output the input text with spaces trimmed from the left-hand side.
+document.querySelector('#transformTrimLeft').addEventListener('click', function() {
+    output.innerText = userInput.value.trimLeft();
+});
 
 // TODO: 4) Write the code to output the input text with spaces trimmed from the right-hand side.
+document.querySelector('#transformTrimRight').addEventListener('click', function() {
+    output.innerText = userInput.value.trimRight();
+});
 
 // TODO: 5) Write the code to output the input text with spaces trimmed from the both sides.
+document.querySelector('#transformTrim').addEventListener('click', function() {
+    output.innerText = userInput.value.trim();
+});
 
 // TODO: 6) Write the code to pad the start of input text with the supplied character(s).
+document.querySelector('#transformPadStart').addEventListener('click', function() {
+    let padText = document.querySelector('#startText').value;
+    let length = parseInt(document.querySelector('#minLength').value);
+    output.innerText = userInput.value.padStart(length, padText);
+});
 
 // TODO: 7) Write the code to replace text in the user's input.
+document.querySelector('#transformReplace').addEventListener('click', function() {
+    let searchText = document.querySelector('#replaceThis').value;
+    let replaceText = document.querySelector('#replaceWith').value;
+    output.innerText = userInput.value.replace(searchText, replaceText);
+});
 
 // TODO: 8) Write the code to repeat the text the specified number of times on separate lines.
+document.querySelector('#transformRepeat').addEventListener('click', function() {
+    let repeat = parseInt(document.querySelector('#repeatText').value);
+    output.innerText = `${userInput.value}\n`.repeat(repeat);
+});
 
