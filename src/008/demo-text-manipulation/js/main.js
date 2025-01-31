@@ -1,8 +1,9 @@
 // Some global variables that we will re-use frequently
-const userInput = document.getElementById('userInput');
-const output = document.getElementById('transformedText');
+const userInput = document.getElementById('userInput');    // <input />
+const output = document.getElementById('transformedText'); // <pre></pre>
 // Show the user input in the output
 output.innerText = userInput.value;
+// Form input tags have a .value property that holds the value of the input control.
 // A little prep....
 const presetPaddingLength = function() {
     let input = document.getElementById('minLength');
