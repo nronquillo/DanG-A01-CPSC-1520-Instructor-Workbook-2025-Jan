@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout and Design</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body class="container">
+    <h1>If-Else and Switch</h1>
+    <form>
+        <fieldset class="grid">
+            <label>Left-Hand
+                <input type="text" name="lhSide" placeholder="Enter a value" autofocus>
+                <small class="grid">
+                    <label><input type="radio" tabindex="-1" name="lhType" value="text" checked="true">Text</label>
+                    <label><input type="radio" tabindex="-1" name="lhType" value="number">Number</label>
+                </small>
+            </label>
+            <label>Comparison
+                <select type="email" name="email">
+                    <option>==</option>
+                    <option>===</option>
+                    <option>!=</option>
+                    <option>!===</option>
+                    <option>&gt;</option>
+                    <option>&gt;=</option>
+                    <option>&lt;</option>
+                    <option>&lt;=</option>
+                </select>
+            </label>
+            <label>Right-Hand
+                <input type="text" name="rhSide" placeholder="Enter a value">
+                <small class="grid">
+                    <label><input type="radio" tabindex="-1" name="rhType" value="text" checked="true">Text</label>
+                    <label><input type="radio" tabindex="-1" name="rhType" value="number">Number</label>
+                </small>
+            </label>
+        </fieldset>
+        <div class="grid">
+            <button type="submit">Register</button>
+            <button type="reset" class="secondary">Reset Form</button>
+        </div>
+    </form>
+    <hr />
+    <pre><code id="output">Zoom screen to 75% for side-by-side with VS Code
+</code></pre>
+</body>
+
+</html>
