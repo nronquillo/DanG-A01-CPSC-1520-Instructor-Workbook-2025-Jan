@@ -214,18 +214,37 @@
 ## Feb 04 (W05)
 
 - **Today**
+  - [ ] **(20-25 min)** - [If-Else](./src/012/demo-grammar/ReadMe.md)
+  - [ ] **(20+)** Ad-hoc If-Else demo
+    - Starter Kit *(installs to `~/src/012/If-Else/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/If-Else ./src/012/If-Else
+      ```
+
 - **Homework**
+  - [ ] Review my notes on [Conditional Expressions](https://dgilleland.github.io/CPSC-1520/reference/0020/#conditional-expressions)
 
 
 ## Feb 05
 
 - **Today** *(Online)*
+  - [ ] **()** [013 If-Else in Form Processing](./src/013/ReadMe.md)
+    - Starter Kit *(installs to `~/src/013/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
+      ```
+
+    - [ ] Demo Shipping Calculator
 - **Homework**
+  - [ ] Do the [form-processing-2](./src/013/form-processing/ReadMe.md) practice on your own
 
 
 ## Feb 07
 
 - **Today**
+  - [ ] **In-Class Lab 4** (Forms and Validation)
 - **Homework**
 
 ----
