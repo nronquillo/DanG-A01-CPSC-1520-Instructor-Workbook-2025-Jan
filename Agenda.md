@@ -219,14 +219,14 @@
     - [ ] Repl Starter Kit *(installs to [`~/src/012/node-repl/`](./src/012/node-repl/ReadMe.md))*
 
         ```ps
-        pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/node-repl ./src/012/node-repl
+        pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/node-repl ./src/012/node-repl
         ```
 
   - [ ] **(20+)** Ad-hoc If-Else demo
     - [ ] Starter Kit *(installs to [`~/src/012/course-marks/`](./src/012/course-marks/ReadMe.md))*
 
       ```ps
-      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/course-marks ./src/012/course-marks
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/course-marks ./src/012/course-marks
       ```
 
     - [ ] Commentary on the usefulness of JSDoc comments
@@ -242,7 +242,7 @@
     - Starter Kit *(installs to `~/src/013/`)*
 
       ```ps
-      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
       ```
 
     - [ ] Demo Shipping Calculator
