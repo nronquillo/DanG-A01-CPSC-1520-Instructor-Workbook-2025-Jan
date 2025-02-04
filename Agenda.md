@@ -214,7 +214,14 @@
 ## Feb 04 (W05)
 
 - **Today**
-  - [ ] **(20-25 min)** - [If-Else](./src/012/demo-grammar/ReadMe.md)
+  - [ ] **(20-25 min)** - If-Else
+    - [ ] [Notes](./src/012/demo-grammar/ReadMe.md)
+    - [ ] Repl Starter Kit *(installs to `~/src/012/node-repl/`)*
+
+        ```ps
+        pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/node-repl ./src/012/node-repl
+        ```
+
   - [ ] **(20+)** Ad-hoc If-Else demo
     - Starter Kit *(installs to `~/src/012/course-marks/`)*
 
