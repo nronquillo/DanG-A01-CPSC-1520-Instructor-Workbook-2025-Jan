@@ -36,7 +36,7 @@ const addEvalItem = function (evt) {
   //            message if they haven't, otherwise
   //            display the data they entered.
   if(inputEvalName.value && inputWeight.value) {
-    message = `The <b>${inputEvalName.value}</b> has a weight of <u>${inputWeight.value}</u>.`;
+    message = `The <b>${inputEvalName.value}</b> has a weight of <u>${inputWeight.value}</u>%.`;
     outputLine(message);
   } else {
     if(isBlank(inputEvalName)) {
