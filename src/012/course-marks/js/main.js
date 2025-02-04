@@ -22,7 +22,7 @@ const outputLine = function (htmlMarkup, replace) {
 const addEvalItem = function (evt) {
   evt.preventDefault();
   // TODO: Write your exploratory code here
-  outputLine("Edit this form's event handler to compare the values");
+  outputLine("The <b>Add Eval Item</b> was clicked", true);
 
   // Get our form inputs
   let elements = evt.target.elements;
@@ -35,9 +35,36 @@ const addEvalItem = function (evt) {
   //            name and weight. Display an error
   //            message if they haven't, otherwise
   //            display the data they entered.
-  message = `The <b>${inputEvalName.value}</b> has a weight of <u>${inputWeight.value}</u>.`;
-  outputLine(message);
+  if(inputEvalName.value && inputWeight.value) {
+    message = `The <b>${inputEvalName.value}</b> has a weight of <u>${inputWeight.value}</u>.`;
+    outputLine(message);
+  } else {
+    if(isBlank(inputEvalName)) {
+      outputLine(errorHtml("The eval name is required."));
+    }
+    if(isBlank(inputWeight)) {
+      outputLine(errorHtml("The weight is required"));
+    }
+  }
 };
+
+/**
+* Generate a span styled with the .error class.
+* @param {string} htmlMarkup A string value that can include HTML markup
+* @returns The htmlMarkup enclosed in a '<span class="error"></span>' tag
+*/
+const errorHtml = function (htmlMarkup) {
+  return `<span class="error">${htmlMarkup}</span>`;
+};
+
+/**
+* Determine if the text in an input is blank, treating leading and trailing whitespace as blank.
+* @param {HTMLInputElement} formInput A reference to an '<input>' element
+* @returns boolean - true if the trimmed value is an empty string
+*/
+const isBlank = function(formInput) {
+  return formInput.value.trim() === '';
+}        
 
 /**
  * Reports information about the last state of the form before the reset was applied to the input controls.
