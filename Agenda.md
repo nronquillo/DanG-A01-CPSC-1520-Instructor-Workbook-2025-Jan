@@ -223,14 +223,16 @@
         ```
 
   - [ ] **(20+)** Ad-hoc If-Else demo
-    - Starter Kit *(installs to `~/src/012/course-marks/`)*
+    - [ ] Starter Kit *(installs to `~/src/012/course-marks/`)*
 
       ```ps
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/course-marks ./src/012/course-marks
       ```
 
+    - [ ] Commentary on the usefulness of JSDoc comments
 - **Homework**
   - [ ] Review my notes on [Conditional Expressions](https://dgilleland.github.io/CPSC-1520/reference/0020/#conditional-expressions)
+  - [ ] Review my notes on [JSDoc](https://dgilleland.github.io/CPSC-1520/reference/0030/#jsdoc) comments
 
 
 ## Feb 05
