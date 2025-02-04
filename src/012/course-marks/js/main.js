@@ -23,6 +23,20 @@ const addEvalItem = function (evt) {
   evt.preventDefault();
   // TODO: Write your exploratory code here
   outputLine("Edit this form's event handler to compare the values");
+
+  // Get our form inputs
+  let elements = evt.target.elements;
+  console.log(elements);
+  let inputEvalName = elements.evalName;
+  let inputWeight = elements.weight;
+
+  let message;
+  // Challenge: Make sure the user has supplied the
+  //            name and weight. Display an error
+  //            message if they haven't, otherwise
+  //            display the data they entered.
+  message = `The <b>${inputEvalName.value}</b> has a weight of <u>${inputWeight.value}</u>.`;
+  outputLine(message);
 };
 
 /**
