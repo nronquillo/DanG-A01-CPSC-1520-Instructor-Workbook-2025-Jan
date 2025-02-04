@@ -1,4 +1,4 @@
-Global box sizing reset
+/* Global box sizing reset */
 * {
     box-sizing: border-box;
 }
@@ -11,4 +11,12 @@ Global box sizing reset
 input::placeholder {
     color: #888888;
     font-style: italic;
+}
+
+.error {
+    color: rgb(134, 29, 19);
+}
+
+span.error::before {
+    content: '⚠️';
 }
