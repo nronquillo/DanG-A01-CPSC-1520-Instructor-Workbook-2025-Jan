@@ -238,14 +238,21 @@
 ## Feb 05
 
 - **Today** *(Online)*
+  - [ ] **Assignment 1** available (since Monday, Feb 3)
+  - [ ] **(20+)** Continue [course-marks](./src/012/course-marks/)
+    - [ ] Check for Total and Earned Points
+    - [ ] Calculate percent on evaluation item
+    - [ ] Calculate earned weight towards final mark (out of attempted)
+    - [ ] Calculate average of attempted
+    - [ ] Calculate remaining average required to pass
   - [ ] **()** [013 If-Else in Form Processing](./src/013/ReadMe.md)
+    - [ ] Demo Shipping Calculator
     - Starter Kit *(installs to `~/src/013/`)*
 
       ```ps
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
       ```
 
-    - [ ] Demo Shipping Calculator
 - **Homework**
   - [ ] Do the [form-processing-2](./src/013/form-processing/ReadMe.md) practice on your own
 
@@ -254,7 +261,21 @@
 
 - **Today**
   - [ ] **In-Class Lab 4** (Forms and Validation)
+    - You should know
+      - **Form processing**
+        - The `submit` event for `<form>` elements
+        - How to stop the default behaviour of forms (i.e.: sending data to the web server)
+        - How to identify form controls from the `.elements` property of the form object.
+          - indexed on the `name` attribute value
+      - **Flow Control**
+        - `if/else` statements
+        - Boolean logic
 - **Homework**
+
+<!-- ### Lab 4 Spec Notes
+
+- Focus on attaching and building the event handler for the form.
+- Within the event handler function, make use of the validation functions provided in the starter kit. -->
 
 ----
 
