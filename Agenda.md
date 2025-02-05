@@ -240,6 +240,8 @@
 - **Today** *(Online)*
   - [ ] **Assignment 1** available (since Monday, Feb 3)
   - [ ] **(20+)** Continue [course-marks](./src/012/course-marks/)
+    - [ ] Track if form is valid
+    - [ ] Clear form after processing
     - [ ] Check for Total and Earned Points
     - [ ] Calculate percent on evaluation item
     - [ ] Calculate earned weight towards final mark (out of attempted)
