@@ -30,6 +30,7 @@ const addEvalItem = function (evt) {
   let inputEvalName = elements.evalName;
   let inputWeight = elements.weight;
 
+  let isValid = true; // Optimistic that the data will be good
   let message;
   // Challenge: Make sure the user has supplied the
   //            name and weight. Display an error
@@ -41,17 +42,70 @@ const addEvalItem = function (evt) {
   } else {
     if(isBlank(inputEvalName)) {
       outputLine(errorHtml("The eval name is required."));
+  //  \          \         \_____ string arg _________///
+  //   \          \________  retuns a string _________//
+  //    \_________ returns   undefined _______________/ 
+      isValid = false; // We're missing information
     }
     if(isBlank(inputWeight)) {
       outputLine(errorHtml("The weight is required"));
+      isValid = false;
     }
   }
-};
+
+  // TODO: Validate the total and earned points
+  let inputTotal = elements.totalPoints;
+  let inputEarned = elements['earnedPoints']; // indexer
+  let canCalculate = false;
+  if(isBlank(inputTotal)) {
+    if(!isBlank(inputEarned)) {
+      isValid = false; //   25 / ??
+      outputLine(errorHtml('You must supply a total to go with the earned points.'));
+    }
+  } else {
+    if(!isBlank(inputEarned)) {
+      // make sure the earned is not greater than the total
+      if(parseInput(inputEarned) > parseInput(inputTotal)) {
+        outputLine(errorHtml('The earned cannot be bigger than the total'));
+        isValid = false;
+      } else {
+        canCalculate = true;
+      }
+    } else {
+      outputLine(`The total possible is ${parseInput(inputTotal)}, but you don't have your marks back yet.`);
+    }
+  }
+
+  // final processing
+  if(isValid) {
+    message = "Processing the evaluation item....";
+    if(canCalculate) {
+      let avg = parseInput(inputEarned) / parseInput(inputTotal) * 100;
+      let weightedAvg = avg * parseInput(inputWeight) / 100;
+      outputLine(`Your mark was ${avg} %, and you earned ${weightedAvg} % towards your final mark.`);
+    }
+
+    // Clear the form inputs.
+    inputEvalName.value = '';
+    inputWeight.value = '';
+
+    inputEvalName.focus(); // to set this <input> to have keyboard focus
+  }
+}; // end of the event handler
+
+/**
+ * Parses `<input type="number">` elements to get the value as a numeric type.
+ * @param {HTMLInputElement} inputElement An input whose value should be numeric
+ * @returns {number} - The parsed value, or NaN
+ */
+const parseInput = function(inputElement) {
+  return parseFloat(inputElement.value);
+}
 
 /**
 * Generate a span styled with the .error class.
 * @param {string} htmlMarkup A string value that can include HTML markup
-* @returns The htmlMarkup enclosed in a '<span class="error"></span>' tag
+* @returns The htmlMarkup enclosed in a `<span class="error"></span>` tag
 */
 const errorHtml = function (htmlMarkup) {
   return `<span class="error">${htmlMarkup}</span>`;
