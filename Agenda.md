@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#feb-04-w05).
+> These are my notes on what I plan to teach in each [**upcoming class**](#feb-07).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -274,10 +274,10 @@
         - Boolean logic
 - **Homework**
 
-<!-- ### Lab 4 Spec Notes
+### Lab 4 Spec Notes
 
 - Focus on attaching and building the event handler for the form.
-- Within the event handler function, make use of the validation functions provided in the starter kit. -->
+- Within the event handler function, make use of the validation functions provided in the starter kit.
 
 ----
 
