@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#feb-07).
+> These are my notes on what I plan to teach in each [**upcoming class**](#feb-11-w06).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -284,6 +284,14 @@
 ## Feb 11 (W06)
 
 - **Today**
+  - [ ] Browser-less Script Files - to learn the JS language
+    - Starter Kit *(installs to `~/src/014/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/014 ./src/014
+      ```
+
+  - [ ] Intro to Looping
 - **Homework**
 
 
