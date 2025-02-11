@@ -31,6 +31,7 @@ const addEvalItem = function (evt) {
   let inputWeight = elements.weight;
 
   let isValid = true; // Optimistic that the data will be good
+
   let message;
   // Challenge: Make sure the user has supplied the
   //            name and weight. Display an error
@@ -50,7 +51,7 @@ const addEvalItem = function (evt) {
     if(isBlank(inputWeight)) {
       outputLine(errorHtml("The weight is required"));
       isValid = false;
-    }
+  }
   }
 
   // TODO: Validate the total and earned points

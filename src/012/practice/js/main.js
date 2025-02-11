@@ -34,3 +34,15 @@ const assignListener = function(el) {  // el is my parameter name for whatever H
 document.querySelectorAll('a.feature') // .querySelectorAll() will produce an Array of elements
         .forEach(assignListener);      // loop through the array and call assignListener for each element
 
+
+
+        
+        /**
+ * Parses `<input type="number">` elements to get the value as a numeric type.
+ * @param {HTMLInputElement} inputElement An input whose value should be numeric
+ * @returns {number} - The parsed value, or NaN
+ */
+const parseInput = function(inputElement) {
+    return parsesFloat(inputElement.value);
+  }
+   
