@@ -19,7 +19,27 @@ const shootDie = function() {
     } else if (total === 1 || total === 2 || total === 12) {
         message += 'Sorry - you lost. 😢';
     } else {
-        // TODO: Playing the point...
+        // Playing the point
+        let point = total;
+        let count = 0;
+        message += ' - attemping to match point\n\t';
+        // Do-While statement
+        do {
+            // repeating logic
+            message += '.';
+            count++;
+            firstDie = rollDie();
+            secondDie = rollDie();
+            total = firstDie + secondDie;
+        } while(total !== point && total !== 7);
+
+        // Report on the results
+        message += `\nAfter ${count} more rolls`;
+        if(total === 7) {
+            message += ' - you lost 😭';
+        } else {
+            message += ' you won! 🎉';
+        }
     }
 
     console.log(message);
@@ -55,4 +75,40 @@ const learnLoops = function() {
     console.log(message);
 }
 
-learnLoops();
+// learnLoops();
+
+// Fibonacci Sequence
+// 1, 1, 2, 3, 5, 8, 13, ....
+//               \  +  /, next value
+
+const buildFibonacciSequence = function(quantity) {
+    let sequence;
+    if(quantity <= 0) {
+        sequence = 'Invalid quantity - must be greater than zero';
+    } else if(quantity === 1) {
+        sequence = '1';
+    } else {
+        // Use a loop to build the sequence
+        // setup of variables
+        let previous = 0;
+        let current = 1;
+        sequence = `${current}`;
+        // begin the loop
+        for(let count = 2; count <= quantity; count++) {
+            console.log(`calc: next = ${previous} + ${current}`);
+            let next = previous + current;
+            sequence += `, ${next}`;
+            // update values for the next time through the loop
+            previous = current;
+            current = next;
+            console.log(`previous: ${previous}, current: ${current}`);
+        }
+    }
+
+    return sequence;
+}
+
+console.log('\n\n');
+console.log(buildFibonacciSequence(1));
+console.log(buildFibonacciSequence(7));
+

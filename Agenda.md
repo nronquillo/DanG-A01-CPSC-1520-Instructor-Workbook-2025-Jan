@@ -298,6 +298,14 @@
 ## Feb 12
 
 - **Today** *(Online)*
+  - [ ] More looping & flow-control
+    - Build a Fibonacci Sequence
+    - Finish dice game
+    - Brief into re: Objects
+      - Object literal example
+      - Date object
+      - Node's `process` object
+    - Intro to Arrays
 - **Homework**
 
 
