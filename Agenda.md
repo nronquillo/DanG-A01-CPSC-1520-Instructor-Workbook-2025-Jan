@@ -306,7 +306,7 @@
       - Date object
       - Node's `process` object
     - Intro to Arrays
-- **Homework**
+- **Homework**  
 
 
 ## Feb 14
