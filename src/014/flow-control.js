@@ -45,7 +45,7 @@ const shootDie = function() {
     console.log(message);
 }
 
-// shootDie();
+shootDie();
 
 // ===============
 // Let's learn about loops....
@@ -79,8 +79,16 @@ const learnLoops = function() {
 
 // Fibonacci Sequence
 // 1, 1, 2, 3, 5, 8, 13, ....
-//               \  +  /, next value
+//               \/ \ /
+//                |  |- Current
+//                |- Previous
+//                     , Next value
 
+/**
+ * Generates the string of Fibonacci numbers up to a certain quantity
+ * @param {number} quantity The quantity of numbers in the sequence
+ * @returns {string} - A string with the Fibonacci sequence
+ */
 const buildFibonacciSequence = function(quantity) {
     let sequence;
     if(quantity <= 0) {
@@ -95,13 +103,13 @@ const buildFibonacciSequence = function(quantity) {
         sequence = `${current}`;
         // begin the loop
         for(let count = 2; count <= quantity; count++) {
-            console.log(`calc: next = ${previous} + ${current}`);
+            // console.log(`calc: next = ${previous} + ${current}`);
             let next = previous + current;
             sequence += `, ${next}`;
             // update values for the next time through the loop
             previous = current;
             current = next;
-            console.log(`previous: ${previous}, current: ${current}`);
+            // console.log(`previous: ${previous}, current: ${current}`);
         }
     }
 
@@ -109,6 +117,8 @@ const buildFibonacciSequence = function(quantity) {
 }
 
 console.log('\n\n');
-console.log(buildFibonacciSequence(1));
-console.log(buildFibonacciSequence(7));
+// console.log(buildFibonacciSequence(1));
+// console.log(buildFibonacciSequence(7));
 
+// Factorial   5!
+//             5 x 4 x 3 x 2 x 1 => 120
