@@ -41,7 +41,6 @@ const shootDie = function() {
             message += ' you won! 🎉';
         }
     }
-
     console.log(message);
 }
 
