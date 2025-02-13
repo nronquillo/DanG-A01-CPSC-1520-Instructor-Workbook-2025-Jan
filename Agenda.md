@@ -312,25 +312,63 @@
 ## Feb 14
 
 - **Today**
+  - [ ] 🗝️ **Understanding Types** - The *key* to coding with confidence!
+
+    ```js
+    const dataType = function (value) {
+        let result;
+        if(value == undefined || value == null) {
+            result = `The value is ${value}`;
+        } else {
+            result = `The data type is ${value.constructor.name}`;
+        }
+        return result;
+    }
+    ```
+
+  - [ ] Looping and Array Demos - *(to be done over several classes)*
+    - Starter Kit *(installs to [`~/src/015/`](./src/015/ReadMe.md))*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/015 ./src/015
+      ```
+
+    - Starter Kit *(installs to [`~/src/016/`](./src/016/ReadMe.md))*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/sk/016 ./src/016
+      ```
+
 - **Homework**
+  - *See the Practice items under the 015/016*
 
 ----
 
 ## Feb 25 (W07)
 
 - **Today**
+  - [ ] Continue/Complete Looping and Array Demos - *(to be done over several classes)*
+    - *(See starter Kit [`~/src/015/`](./src/015/ReadMe.md))*
+    - *(See starter Kit [`~/src/016/`](./src/016/ReadMe.md))*
 - **Homework**
+  - *See the Practice items under the 015/016*
 
 
 ## Feb 26
 
 - **Today** *(Online)*
+  - [ ] ***TBD:** New items*
+  - [ ] Continue/Complete Looping and Array Demos - *(to be done over several classes)*
+    - *(See starter Kit [`~/src/015/`](./src/015/ReadMe.md))*
+    - *(See starter Kit [`~/src/016/`](./src/016/ReadMe.md))*
 - **Homework**
+  - *See the Practice items under the 015/016*
 
 
 ## Feb 28
 
 - **Today**
+  - [ ] **In-Class Lab 5** (Loops and Arrays)
 - **Homework**
 
 ----
