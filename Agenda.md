@@ -312,6 +312,7 @@
 ## Feb 14
 
 - **Today**
+  - [ ] **Lab 4 Solution**
   - [ ] 🗝️ **Understanding Types** - The *key* to coding with confidence!
 
     ```js
